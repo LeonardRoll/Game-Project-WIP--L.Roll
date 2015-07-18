@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+ * The movement needs to fetch the direction the camera is facing and then move that direction
+ * functions needed : getCameraDirection
+ */
 public class Movement : MonoBehaviour {
 	public float speed = 6.0F;
 	public float jumpSpeed = 8.0F;

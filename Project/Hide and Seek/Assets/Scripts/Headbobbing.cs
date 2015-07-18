@@ -12,7 +12,7 @@ public class Headbobbing : MonoBehaviour{
   private float timer = 0.0f;
   public float bobbingSpeed = 0.1f;
   public float bobbingAmount = 0.05f;
-  public float midpoint = 0.75f;
+	public float midpoint = 0.75f;
 
   void Update(){
     float waveslice = 0.0f;
